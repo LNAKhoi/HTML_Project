@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* setting the basic css style for the website*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logoTitle{
+    font-family:'Pacifico',sans-serif;
+    color: white;
+    font-size: 30px;
+}
+/* css styles for navigation bar*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-image:linear-gradient(to left,#000000,#434343 );
+}
