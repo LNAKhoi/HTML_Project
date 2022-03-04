@@ -59,4 +59,49 @@ nav #icon{
     float: right;
     margin-right: 10px;
     cursor: pointer;
+    visibility: hidden;
+}
+@media (max-width:1120px){
+    .logo{
+        align-items: center;
+        font-size:28px;
+        padding-left: 60px;
+    }
+    .nav-links {
+        margin-right: 20px;
+    }
+    .nav-links a{
+        font-size: 17px;
+    }
+    nav #icon{
+        visibility: visible;
+    }
+}
+@media (max-width:600px){
+    .nav-links{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #9a8478;
+        top:80px;
+        left:-100%;
+        transition: all 0.5s;
+        text-align: center;
+        display: block;
+   }
+   .nav-links li{
+       display:block;  
+       margin:50px 0 ;
+       line-height: 30px;
+   }
+   .nav-links a{
+       font-size: 26px;
+   }
+   .nav-links a:hover{
+       border:none;
+       color: black;
+   }
+    nav ul.show{
+      left: 0;
+  } 
 }
